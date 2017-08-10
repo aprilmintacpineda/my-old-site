@@ -1,9 +1,14 @@
-.home-content-wrapper
+.two-columns-content-wrapper
+  @media all and (max-width: 840px)
+    width: 100%
   width: 80%
   margin: 5% auto
   box-sizing: border-box
   +clearFloat
   .left-bar
+    @media all and (max-width: $mobile_wide)
+      width: 100%
+      display: none
     width: 30%
     .profile-image
       margin-bottom: 10%
@@ -28,8 +33,13 @@
         padding-bottom: 5px
         margin-bottom: 5px
   .right-bar
+    @media all and (max-width: $mobile_wide)
+      width: 100%
+      padding-left: 0
     width: 70%
     padding-left: 5%
   section
+    @media all and (max-width: $mobile_wide)
+      float: none
     float: left
     box-sizing: border-box

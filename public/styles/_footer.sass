@@ -1,4 +1,7 @@
 .page-footer
+  @media all and (max-width: $mobile_small)
+    height: 210px
+    margin-bottom: -210px
   position: absolute
   bottom: 0
   margin-bottom: -150px
@@ -22,6 +25,9 @@
     +fitWidth
     margin: 0 auto
     section
+      @media all and (max-width: $mobile_small)
+        float: none
+      display: block
       padding: 15px
       float: left
       +fitWidth

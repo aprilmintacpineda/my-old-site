@@ -1,0 +1,109 @@
+.home-content-wrapper
+  .row-two
+    @media all and (min-width: $mobile_wide)
+      +fitWidth
+    width: 100%
+    +clearFloat
+    box-sizing: border-box
+    margin: 0 auto 5% auto
+    .measure-bar
+      width: 100%
+      background: #ffffff
+      border: 1px solid #d0d1d5
+      position: relative
+      height: 24px
+      text-align: center
+      .level
+        box-shadow: 0 0 5px gray inset
+        position: absolute
+        left: 0
+        height: 24px
+      .value
+        position: absolute
+        +pCenter
+        color: #000000
+      .php
+        width: 60%
+        background: #777bb4
+      .html-5
+        width: 60%
+        background: #e44d26
+      .js
+        width: 60%
+        background: #d6ba32
+      .css
+        width: 60%
+        background: #0070ba
+      .sass
+        width: 60%
+        background: #cf649a
+      .react-js
+        width: 60%
+        background: #61dafb
+      .laravel
+        width: 60%
+        background: #fb503b
+      .jekyll
+        width: 60%
+        background: #cd0000
+    ul
+      @media all and (min-width: $mobile_wide)
+        +fitWidth
+        max-width: 400px
+      @media all and (max-width: $mobile_wide)
+        float: none
+        width: 100%
+        margin: 0 auto
+      width: 50%
+      box-sizing: border-box
+      float: left
+      &:first-child
+        padding-right: 30px
+      li
+        list-style: none
+        margin-bottom: 15px
+        .description
+          color: gray
+        section
+          &:first-child
+            margin-bottom: 10px
+        h1
+          font-size: 26px
+  .row-one
+    @media all and (max-width: $mobile_wide)
+      width: 100%
+    +fitWidth
+    +clearFloat
+    margin: 5% auto 5% auto
+    .left
+      @media all and (max-width: $mobile_wide)
+        float: none
+        width: 100%
+      float: left
+      width: 250px
+      .profile-image
+        @media all and (max-width: $mobile_wide)
+          width: 60%
+          display: block
+          margin: 0 auto 5% auto
+        width: 100%
+        height: auto
+    .right
+      @media all and (max-width: $mobile_wide)
+        float: none
+        width: 100%
+        padding-left: 0
+      float: left
+      width: 400px
+      ul
+        @media all and (max-width: $mobile_wide)
+          padding-left: 0
+          margin-top: 5%
+        padding-left: 10%
+        li
+          list-style: none
+          margin-bottom: 5%
+          .big
+            font-size: 28px
+          div, h1
+            margin-bottom: 10px

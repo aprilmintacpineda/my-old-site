@@ -18,10 +18,40 @@
     vertical-align: middle
     padding: 20px
     text-decoration: none
+  .burger
+    @media all and (max-width: $mobile_wide)
+      display: block
+    position: absolute
+    top: 20px
+    right: 20px
+    display: none
+    span
+      background: #ffffff
+      padding: 3px
+      margin: 3px
+      width: 50px
+      display: block
+  #toggle-menu
+    display: none
+  #toggle-menu:checked ~ ul
+    height: auto
   ul
+    @media all and (max-width: $mobile_wide)
+      position: absolute
+      top: 100%
+      left: 0
+      width: 100%
+      background: #f2f2f2
+      border-bottom: #cccccc
+      height: 0
+      overflow: hidden
+      transition: height 250ms linear
     float: right
     +clearFloat
     li
+      @media all and (max-width: $mobile_wide)
+        float: none
+        display: block
       list-style: none
       float: left
       position: relative
@@ -29,10 +59,12 @@
         color: #fff
         background: #004466
       a
+        @media all and (max-width: $mobile_small)
+          color: #004466
         transition: background 250ms linear, color 250ms linear
         display: block
         padding: 24px
-        color: #cccccc
+        color: #ffffff
         text-decoration: none
         &:hover
           color: #fff

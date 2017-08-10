@@ -3,6 +3,8 @@
   width: 100%
   margin-top: 67px
   .contents
+    @media all and (max-width: $mobile_small)
+      min-height: calc(100vh - 350px)
     min-height: calc(100vh - 270px)
     max-width: $max-width
     margin: 0 auto
