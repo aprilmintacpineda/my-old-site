@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Super Quotes
+post_title: Super Quotes
 page_title: Super Quotes
 date_posted: 2017-08-10
 open_source: true
 description: A collection of quotes from different people in TEXT, JSON, and various arrays for different programming languages.
+tags: open source, quotes collection, collection of quotes
 ---
 
 # Super Quotes
