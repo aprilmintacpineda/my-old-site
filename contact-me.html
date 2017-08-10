@@ -4,4 +4,23 @@ page_title: Contact me
 onlink: contact-me
 ---
 
-<h1>Contact me</h1>
+<section class="contact-form">
+  <ul>
+    <li>
+      <p>Your email (required)</p>
+      <p id="sender-email-error" class="error"></p>
+      <input id="sender-email" type="email" placeholder="example@email.com">
+    </li>
+    <li>
+      <p>Your message (required)</p>
+      <p id="sender-message-error" class="error"></p>
+      <textarea id="sender-message" placeholder="Start typing here..."></textarea>
+    </li>
+    <li>
+      <input id="send-contact-form" type="button" value="Send my message">
+      <p id="send-contact-form-error" class="error"></p>
+    </li>
+  </ul>
+</section>
+
+<script type="text/javascript" src="/public/scripts/contact-form.js"></script>

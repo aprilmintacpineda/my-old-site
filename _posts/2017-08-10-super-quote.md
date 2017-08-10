@@ -8,6 +8,8 @@ description: A collection of quotes from different people in TEXT, JSON, and var
 ---
 
 # Super Quotes
+###### Posted: 2017-08-10
+[See on github](https://github.com/aprilmintacpineda/super-quotes)
 
 A collection of quotes from different people in TEXT, JSON, and various arrays for different programming languages.
 

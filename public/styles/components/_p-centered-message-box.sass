@@ -1,7 +1,12 @@
+.p-centered-message-box-wrapper
+  height: calc(100vh - 210px)
+  position: relative
 .p-centered-message-box
+  @media all and (max-width: $mobile_wide)
+    width: 100%
   margin: 0 auto
   +pCenter
-  max-width: 60%
+  width: 60%
   .title
     font-weight: normal
     font-size: 40px
