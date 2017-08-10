@@ -1,5 +1,35 @@
 ---
-layout: default
+layout: two-columned
+page_title: Projects
+onlink: projects
 ---
 
-<h1>Projects</h1>
+<section class="posts-collection">
+  {% if site.posts == null %}
+    <p>There are no posts yet.</p>
+  {% else %}
+    {% for post in site.posts %}
+      <section class="post-box-container">
+        <header>
+          <div>
+            <h1>{{ post.title }}</h1>
+            <p><strong>Posted:</strong> {{ post.date_posted | date: '%B %d, %Y' }}</p>
+          </div>
+
+          <div>
+            {% if post.open_source %}
+              <p class="green">Open source</p>
+            {% else %}
+              <p class="red">Closed source</p>
+            {% endif %}
+          </div>
+        </header>
+
+        <article>
+          <p>{{ post.description }}</p>
+          <p><a href="{{ post.url }}">Read more</a></p>
+        </article>
+      </section>
+    {% endfor %}
+  {% endif %}
+</section>

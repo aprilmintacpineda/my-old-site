@@ -1,4 +1,7 @@
 .top-header
+  .top-header-wrapper
+    max-width: $max-width
+    margin: 0 auto
   position: fixed
   top: 0
   left: 0
@@ -13,7 +16,7 @@
     float: left
     display: block
     vertical-align: middle
-    padding: 15px
+    padding: 20px
     text-decoration: none
   ul
     float: right
@@ -21,6 +24,10 @@
     li
       list-style: none
       float: left
+      position: relative
+      .onlink
+        color: #fff
+        background: #004466
       a
         transition: background 250ms linear, color 250ms linear
         display: block

@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>AMP</title>
+  <title>{{ page.page_title }} - {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="/public/styles/app.css">
 </head>
 <body>
   <header class="top-header">
-    <h1><a href="/">Portfolio</a></h1>
-    <nav>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/projects">Projects</a></li>
-        <li><a href="/contact-me">Contact me</a></li>
-      </ul>
-    </nav>
+    <section class="top-header-wrapper">
+      <h1><a href="/">Portfolio</a></h1>
+      <nav>
+        <ul>
+          <li><a href="/blog">Check out my blog!</a></li>
+          <li>
+            {% if page.onlink == 'home' %}
+              <a class="onlink" href="/">Home</a>
+            {% else %}
+              <a href="/">Home</a>
+            {% endif %}
+          </li>
+          <li>
+            {% if page.onlink == 'projects' %}
+              <a class="onlink" href="/projects">Projects</a>
+            {% else %}
+              <a href="/projects">Projects</a>
+            {% endif %}
+          </li>
+          <li>
+            {% if page.onlink == 'contact-me' %}
+              <a class="onlink" href="/contact-me">Contact me</a>
+            {% else %}
+              <a href="/contact-me">Contact me</a>
+            {% endif %}
+          </li>
+        </ul>
+      </nav>
+    </section>
   </header>
 
   <section class="content-container">
@@ -24,20 +45,20 @@
 
     <footer class="page-footer">
       <section class="cl-2">
-        <section>
+        <section class="load-defaults">
           <h1>April Mintac Pineda</h1>
-          <p>aprilmintacpineda@gmail.com</p>
+          <p><a href="/contact-me">aprilmintacpineda@gmail.com</a></p>
         </section>
         <section>
           <ul>
             <li>
-              <a class="with-icon" href="https://www.github.com/aprilmintacpineda">
+              <a class="with-icon" href="https://www.github.com/aprilmintacpineda" target="_new">
                 <img src="/public/images/GitHub-Mark-32px.png">
                 GitHub/aprilmintacpineda
               </a>
             </li>
             <li>
-              <a class="with-icon" href="https://www.linkedin.com/in/april-mintac-pineda/">
+              <a class="with-icon" href="https://www.linkedin.com/in/april-mintac-pineda/" target="_new">
                 <img src="/public/images/In-2C-34px-R.png">
                 LinkedIn/april-mintac-pineda
               </a>
