@@ -81,7 +81,7 @@
       } else {
         formStatus.submitted = true;
 
-        fetch('http://formspree.io/aprilmintacpineda@gmail.com', {
+        fetch('https://formspree.io/aprilmintacpineda@gmail.com', {
           method: 'POST',
           body: JSON.stringify({
             email: data.email.value,
