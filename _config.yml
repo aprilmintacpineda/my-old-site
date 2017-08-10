@@ -38,7 +38,7 @@ kramdown:
 # theme: minima
 plugins:
   # - jekyll-feed
-  - octopress-minify-html
+  - jekyll-minifier
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
