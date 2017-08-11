@@ -39,7 +39,7 @@ If it doesn't work on your machine, please open an issue and tell me about it.
 # Run this
 
 {% highlight console %}
-git clone https://github.com/four-eyes-04-04/super-quotes.git
+git clone https://github.com/aprilmintacpineda/super-quotes.git
 cd super-quotes
 php generate
 {% endhighlight %}
