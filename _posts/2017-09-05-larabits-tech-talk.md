@@ -106,3 +106,27 @@ module.exports = [
   }
 ];
 ```
+
+### Basic Challenge
+
+Create a website that...
+
+- Allows users to create account.
+- Allows respondents to send a private message to user’s account.
+- Allows login users to see messages sent to them in their newsfeed.
+
+###### Activity diagram
+
+![activity diagram](/public/post_resources/2017-09-05-larabits-tech-talk/activity-diagram.png)
+
+###### Database diagram
+
+![database diagram](/public/post_resources/2017-09-05-larabits-tech-talk/database-diagram.png)
+
+###### Data flow diagram
+
+![data flow diagram](/public/post_resources/2017-09-05-larabits-tech-talk/data-flow-diagram.png)
+
+### Challenge yourself
+
+Create a feature that allows users to close their accounts. Respondents will not be able to send messages to closed accounts.
