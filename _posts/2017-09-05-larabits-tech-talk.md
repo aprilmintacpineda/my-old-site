@@ -10,7 +10,7 @@ tags: open source, educational, tech talk, educational materials
 
 # What is this?
 
-This post contains all the resources that I used in my `#TechTalk` at [LaraBits: First step to Laravel](https://www.facebook.com/pampdev/photos/a.1895880487314456.1073741839.1780609138841592/2006207479615089/?type=3&theater){:target="_blank"} sorted in order of appearance.
+This post contains all the resources that I will use in my `#TechTalk` at [LaraBits: First step to Laravel](https://www.facebook.com/pampdev/photos/a.1895880487314456.1073741839.1780609138841592/2006207479615089/?type=3&theater){:target="_blank"} sorted in order of appearance.
 
 ### Links
 
