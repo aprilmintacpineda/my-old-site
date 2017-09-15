@@ -16,6 +16,7 @@ This post contains all the resources that I will use in my `#TechTalk` at [LaraB
 
 - [Without Laravel (Spaghetti code)](https://github.com/aprilmintacpineda/larabits-demo-1){:target="_blank"}
 - [Example homemade MVC App](https://github.com/aprilmintacpineda/larabits-demo-2){:target="_blank"}
+- [The exercise application](https://github.com/aprilmintacpineda/larabits-demo-3.git){:target="_blank"}
 
 ### Copy-Paste section
 
@@ -29,6 +30,12 @@ git clone https://github.com/aprilmintacpineda/larabits-demo-1.git
 
 ```
 git clone https://github.com/aprilmintacpineda/larabits-demo-2.git
+```
+
+###### The exercise application
+
+```
+git clone https://github.com/aprilmintacpineda/larabits-demo-3.git
 ```
 
 ###### Webpack config template
