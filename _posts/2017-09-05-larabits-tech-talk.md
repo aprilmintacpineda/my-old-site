@@ -17,6 +17,8 @@ This post contains all the resources that I will use in my `#TechTalk` at [LaraB
 - [Without Laravel (Spaghetti code)](https://github.com/aprilmintacpineda/larabits-demo-1){:target="_blank"}
 - [Example homemade MVC App](https://github.com/aprilmintacpineda/larabits-demo-2){:target="_blank"}
 - [The exercise application](https://github.com/aprilmintacpineda/larabits-demo-3.git){:target="_blank"}
+- [Example laravel 5.4.33 site on a shared hosting](http://laravel-test-site.000webhostapp.com/)
+- [Deploy your laravel site on a shared hosting - Guide](https://aprilmintacpineda.github.io/blog/how-tos/2017/08/17/deploy-your-laravel-site-with-shared-hosting/)
 
 ### Copy-Paste section
 
